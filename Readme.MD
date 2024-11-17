@@ -21,8 +21,10 @@ To run this on your local pc:
 
 1. Fork and Clone this repository .
 2. In the folder of this project, install the required dependencies:
-```npm install```
-3. Configure an .env variable. Create .env file in the server and save your MONGO_URI in it from the Atlas website. It should look something like this:
+```
+npm install
+```
+3. Configure an `.env` variable. Create .env file in the server and save your MONGO_URI in it from the Atlas website. It should look something like this:
 ```
 MONGO_URI=mongodb+srv://username:password@cluster0.mongodb.net/databaseName?retryWrites=true&w=majority
 ```
@@ -50,7 +52,7 @@ Just run the backend code and you're good to go!
 
 ## API Endpoints
 
-`POST /contacts`: Accepts a new contact entry from the frontend and stores it in the database.
-`GET /contacts`: Retrieves all contact entries to populate the table.
-`PUT /contacts/:id`: Updates a specific contact’s information.
-`DELETE /contacts/:id`: Deletes a contact from the database.
+-`POST /contacts`: Accepts a new contact entry from the frontend and stores it in the database.
+-`GET /contacts`: Retrieves all contact entries to populate the table.
+-`PUT /contacts/:id`: Updates a specific contact’s information.
+-`DELETE /contacts/:id`: Deletes a contact from the database.
