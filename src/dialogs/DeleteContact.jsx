@@ -136,7 +136,7 @@ function ViewContactsDialog({ open, onClose }) {
         </DialogActions>
       </Dialog>
 
-      {/* Confirmation Dialog */}
+      
       <Dialog open={!!confirmDelete} onClose={() => setConfirmDelete(null)}>
         <DialogTitle>Are you sure?</DialogTitle>
         <DialogContent>
