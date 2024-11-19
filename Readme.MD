@@ -31,7 +31,7 @@ For backend:
 cd server
 npm install
 ```
-3. Configure an `.env` variable. Create .env file in the server and save your MONGO_URI in it from the Atlas website. It should look something like this:
+3. Configure an `.env` variable. Create .env file and save it in the `server` folder and save your MONGO_URI in it from the Atlas website. It should look something like this:
 ```
 MONGO_URI=mongodb+srv://username:password@cluster0.mongodb.net/databaseName?retryWrites=true&w=majority
 ```
